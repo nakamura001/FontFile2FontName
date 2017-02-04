@@ -147,6 +147,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FontFile2FontName" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -224,7 +226,10 @@
 				GCC_PREFIX_HEADER = FontFile2FontName_Prefix.pch;
 				INFOPLIST_FILE = "FontFile2FontName-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FontFile2FontName;
 				PRODUCT_NAME = FontFile2FontName;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -238,7 +243,10 @@
 				GCC_PREFIX_HEADER = FontFile2FontName_Prefix.pch;
 				INFOPLIST_FILE = "FontFile2FontName-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FontFile2FontName;
 				PRODUCT_NAME = FontFile2FontName;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
